@@ -267,6 +267,10 @@ function App() {
 
         </div>
       </section>
+      {/* Join Community */}
+      <section className="p-2 bg-[url('../src/assets/images/coin.png')]  h-screen bg-cover bg-no-repeat w-screen" >
+       
+      </section>
 
     </>
   )
