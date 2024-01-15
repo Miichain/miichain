@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: head;
+  src: url(/src/assets/fonts/recharge\ bd.otf);
+}
+@font-face {
+  font-family: text;
+  src: url(/src/assets/fonts/Vogue.ttf);
+}
+/* html, body{
+  overflow-x: hidden;
+} */
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow:  0 0 4px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 22px #980bad,
+  0 0 22px #980bad,
+  0 0 32px #980bad,
+  0 0 12px #980bad,
+  0 0 15px  #980bad
+}
+
+
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-top: 5px;
+}
+.border-btn{
+  box-shadow:  0 0 4px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 22px #980bad,
+  0 0 22px #980bad,
+  0 0 32px #980bad,
+  0 0 12px #980bad,
+  0 0 15px  #980bad
+}
+.border-btn-2{
+  background: #560159;
+  box-shadow:  0 0 4px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 22px #980bad,
+  0 0 22px #980bad,
+  0 0 32px #980bad,
+  0 0 12px #980bad,
+  0 0 15px  #980bad
+}
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }    
+}
+.border-style{
+  border-radius: 56px;
+  background: transparent;
+  box-shadow: inset -5px -3px 9px hsl(323, 100%, 86%),
+              inset 2px 2px 15px #d857b1;
+  
+}
+
+.neon{
+  color: #fff;
+  text-shadow:
+      0 0 7px #c437c9,
+      0 0 10px #841088,
+      0 0 21px #d417db,
+      0 0 42px #d417db,
+      0 0 82px #7d0781,
+      0 0 92px #99049e,
+      0 0 102px #560159,
+      0 0 151px #830088;
+}
+.neon-text{
+  color: #fff;
+  text-shadow:
+    0 0 3px #fff,
+    0 0 3px #fff,
+    0 0 3px #fff,
+    0 0 2px #bc13fe,
+    0 0 2px #bc13fe,
+    0 0 3px #bc13fe,
+    0 0 4px #bc13fe,
+    0 0 5px #bc13fe;
+}
