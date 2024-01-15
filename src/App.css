@@ -10,9 +10,9 @@
   font-family: text;
   src: url(/src/assets/fonts/Unigeo64-Semibold-trial.ttf);
 }
-/* html, body{
+html, body{
   overflow-x: hidden;
-} */
+}
 .hvr-grow-shadow {
   display: inline-block;
   vertical-align: middle;
