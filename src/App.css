@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: text;
-  src: url(/src/assets/fonts/Vogue.ttf);
+  src: url(/src/assets/fonts/Unigeo64-Semibold-trial.ttf);
 }
 /* html, body{
   overflow-x: hidden;
@@ -25,7 +25,7 @@
   transition-property: box-shadow, transform;
 }
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
-  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.3);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -44,11 +44,11 @@
   box-shadow:  0 0 4px #fff,
   0 0 10px #fff,
   0 0 21px #fff,
-  0 0 22px #980bad,
-  0 0 22px #980bad,
-  0 0 32px #980bad,
-  0 0 12px #980bad,
-  0 0 15px  #980bad
+  0 0 22px #b026ff,
+  0 0 22px #b026ff,
+  0 0 32px #b026ff,
+  0 0 12px #b026ff,
+  0 0 15px  #b026ff
 }
 
 
@@ -63,22 +63,22 @@
   box-shadow:  0 0 4px #fff,
   0 0 10px #fff,
   0 0 21px #fff,
-  0 0 22px #980bad,
-  0 0 22px #980bad,
-  0 0 32px #980bad,
-  0 0 12px #980bad,
-  0 0 15px  #980bad
+  0 0 22px #b026ff,
+  0 0 22px #b026ff,
+  0 0 32px #b026ff,
+  0 0 12px #b026ff,
+  0 0 15px  #b026ff
 }
 .border-btn-2{
   background: #560159;
   box-shadow:  0 0 4px #fff,
   0 0 10px #fff,
   0 0 21px #fff,
-  0 0 22px #980bad,
-  0 0 22px #980bad,
-  0 0 32px #980bad,
-  0 0 12px #980bad,
-  0 0 15px  #980bad
+  0 0 22px #b026ff,
+  0 0 22px #b026ff,
+  0 0 32px #b026ff,
+  0 0 12px #b026ff,
+  0 0 15px  #b026ff
 }
 @keyframes floating {
   0% { transform: translate(0,  0px); }

@@ -1,6 +1,6 @@
 import logo from '../src/assets/images/textlogowhite1.png'
 import coin from '../src/assets/images/main-coin.png'
-import logoMain from '../src/assets/images/logo.png'
+import logoMain from '../src/assets/images/purple-logo.png'
 import aboutImg from '../src/assets/images/about-logo.png'
 import logowhite from '../src/assets/images/logowhite.png'
 import './App.css'
@@ -92,7 +92,7 @@ function App() {
                   <h1 className='md:text-[90px] font-head text-white neon-text text-[50px]'>MII</h1>  
                 </div> 
                 <div className="">
-                <img src={coin} className='md:w-[700px] floating' 
+                <img src={logoMain} className='md:w-[700px] floating' 
                  data-aos="fade-up"
                  data-aos-duration="3000"
                 /> 
