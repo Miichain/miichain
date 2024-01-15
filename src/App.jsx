@@ -20,7 +20,7 @@ function App() {
   return (
     <>
      {/* Hero Section */}
-     <section className="p-2 bg-[url('../src/assets/images/bg-2.jpg')] md:h-screen h-fit bg-cover bg-no-repeat w-screen">
+     <section className="p-3 md:p-2 bg-[url('../src/assets/images/bg-2.jpg')] md:h-screen h-fit bg-cover bg-no-repeat w-screen">
         {/* Navigation bar */}
         <nav className='mx-2 md:mx-6 flex justify-between items-center text-white' data-aos="fade-up">
           {/* Site Logo */}
@@ -99,8 +99,8 @@ function App() {
                 </div> 
           </div>
           <div className="flex flex-col  items-center">
-          <div className="mt-52" data-aos="fade-down-right" data-aos-duration="2000">
-                  <h1 className='md:text-[80px] font-head text-white neon-text text-[50px] relative right-12'>CHAIN</h1>  
+          <div className=" mt-48" data-aos="fade-down-right" data-aos-duration="2000">
+                  <h1 className='md:text-[80px] font-head text-white neon-text text-[50px] relative right-2'>CHAIN</h1>  
                 </div> 
                 
                 <div className='flex-col flex md:flex-row space-y-3 mt-10 text-white relative right-16'>
@@ -268,7 +268,7 @@ function App() {
         </div>
       </section>
       {/* Join Community */}
-      <section className="p-2 bg-[url('../src/assets/images/coin.png')]  h-screen bg-cover bg-no-repeat w-screen" >
+      <section className="p-2 bg-[url('../src/assets/images/coin.png')]  h-screen bg-contain bg-no-repeat w-screen" >
        
       </section>
 
