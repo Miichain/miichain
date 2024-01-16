@@ -345,7 +345,7 @@ function App() {
                   <div className="hvr-grow-shadow md:flex flex-col w-72  2xl:w-[600px]  shadow-gray-600 shadow-2xl p-6 md:p-6 rounded-xl text-center md:text-left">
                 <img src={logoMain} className='w-8' alt="" />
                 <p className=' text-black font-head 2xl:text-[30px] mb-4  tracking-wider text-center'>
-                Phase 4
+                Phase 4: User Education and Adoption
                   </p>
                   <ul className='text-center font-text 2xl:text-[30px] '>
                    <li>Develop educational resources to guide users on MiiChain's features.</li>
