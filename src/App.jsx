@@ -138,7 +138,7 @@ function App() {
                 <img src={aboutImg} className='md:w-[500px] 2xl:w-[800px]'  alt="" />
               </div>
               <div className='' data-aos="fade-up-left" data-aos-duration="1500">
-              <h1 className='font-head md:text-[40px] 2xl:text-[70px] text-center md:text-left text-3xl p-2 2xl:p-4'>About Us</h1>
+              <h1 className='font-head md:text-[40px] 2xl:text-[70px] text-center md:text-left text-3xl p-2 2xl:p-4 text-[40px]'>ABOUT US</h1>
               <div className='md:mr-12 shadow-2xl p-6 md:p-6 rounded-xl text-center md:text-left'>
               <p className='font-text 2xl:text-[40px] p-4'>
               Mii Chain is a cutting-edge blockchain platform that innovatively integrates cryptocurrency with social media, transforming the way users engage with digital currencies. This platform simplifies cryptocurrency transactions by allowing direct linking of wallets to social media accounts
@@ -156,7 +156,7 @@ function App() {
         {/* Mobile */}
         <div className="md:hidden flex justify-center gap-5 flex-col items-center text-white">
             <div>
-            <h1 className='font-head md:text-[40px] md:text-'>Key Features</h1>
+            <h1 className='font-head md:text-[40px] md:text- text-[40px] text-center'>KEY FEATURES</h1>
             </div>
             <div>
               <img src={features} className='w-[400px] floating' alt="" />
@@ -276,7 +276,7 @@ function App() {
             </div>
             <div className="hidden md:flex justify-center flex-col items-center text-white">
             <div>
-            <h1 className='font-head md:text-[40px] 2xl:text-[70px] 2xl:text-center'>Key Features</h1>
+            <h1 className='font-head md:text-[40px] 2xl:text-[70px] 2xl:text-center '>Key Features</h1>
             </div>
             <div>
               <img src={features} className='w-48 2xl:w-[800px] floating' alt="" />
@@ -294,7 +294,7 @@ function App() {
         <div className="flex justify-between flex-col  2xl:justify-evenly md:flex-row items-center p-8 mx-12 2xl:mx-16 lg:mx-6" data-aos="fade-up" data-aos-duration="1000">
         <div className="flex justify-center flex-col items-center text-black ">
             <div>
-            <h1 className='font-head md:text-[40px] 2xl:text-[70px]'>Roadmap</h1>
+            <h1 className='font-head md:text-[40px] 2xl:text-[70px] text-[50px]'>ROADMAP</h1>
             </div>
             <div>
               <img src={logowhite} className='w-48 2xl:w-64' alt="" />
@@ -411,7 +411,7 @@ function App() {
         {/* Desktop Hero Section */}
         <div className="flex justify-center flex-col items-center m-auto place-content-center">
               <div className='flex '>
-              <h1 className='md:text-[80px] text-3xl p-4 md:p-8 2xl:p-12 2xl:text-[100px] font-head text-white neon-text'
+              <h1 className='md:text-[80px] text-[40px] p-4 md:p-8 2xl:p-12 2xl:text-[100px] font-head text-white neon-text'
          data-aos="fade-up-left" data-aos-duration="1000">TOKENOMICS</h1> 
               </div>
         <div className="hidden md:flex justify-between items-center 2xl:items-center p-4 mx-12 w-fit 2xl:w-full">
