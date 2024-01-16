@@ -4,6 +4,7 @@ import logoMain from '../src/assets/images/purple-logo.png'
 import aboutImg from '../src/assets/images/about-logo.png'
 import logowhite from '../src/assets/images/logowhite.png'
 import './App.css'
+import features from '../src/assets/images/phone.png'
 import { PiTelegramLogoFill } from "react-icons/pi";
 import { TbChevronDownRight } from "react-icons/tb";
 import { FaMedium } from "react-icons/fa6";
@@ -31,7 +32,7 @@ function App() {
             <div>
               <ul className='space-x-8 font-head text-sm 2xl:text-[30px] font-thin hidden md:flex'>
                 <li>Home</li>
-                <li>About</li>
+                <a href="#about"><li>About</li></a>
                 <li>Tokenomics</li>
                 <li>Roadmap</li>
                 <li>Whitepaper</li>
@@ -131,7 +132,7 @@ function App() {
      </section>
 
       {/* About Section */}
-      <section className="p-2 bg-[url('../src/assets/images/bg-6.jpg')]  h-fit bg-cover bg-no-repeat w-screen">
+      <section className="p-2 bg-[url('../src/assets/images/bg-6.jpg')]  h-fit bg-cover bg-no-repeat w-screen" id='about'>
              <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
               <div data-aos="fade-up-right" data-aos-duration="2000">
                 <img src={aboutImg} className='md:w-[500px] 2xl:w-[800px]'  alt="" />
@@ -158,7 +159,7 @@ function App() {
             <h1 className='font-head md:text-[40px] md:text-'>Key Features</h1>
             </div>
             <div>
-              <img src={logowhite} className='w-48' alt="" />
+              <img src={features} className='w-[400px] floating' alt="" />
             </div>
             <p className='text-center font-text mb-12'>
             Mii Chain, along with the Mii Wallet, is revolutionizing the way we interact with cryptocurrencies. Our platform is designed to be accessible, secure, and user-friendly, catering to both seasoned crypto enthusiasts and newcomers. Join us as we pave the path towards a more inclusive and streamlined digital currency experience.
@@ -258,7 +259,7 @@ function App() {
               {/* Row 3 */}
               <div className="grid grid-row-1 md:grid-row-1 gap-5 mt-4 md:mt-0 md:space-x-5"  data-aos="fade-right"
      data-aos-duration="2500">
-             <div className="hvr-glow  md:flex w-72 md:w-72 flex-col  items-center hit-fit md:h-fit  2xl:w-[600px] 2xl:h-80 justify-center border-style">
+             <div className="hvr-glow  md:flex w-72 md:w-72 flex-col  items-center h-fit md:h-fit  2xl:w-[600px] 2xl:h-80 justify-center border-style">
                 <h3 className='p-6  2xl:text-[40px] 2xl:leading-10 text-white font-head whitespace-normal text-sm tracking-wider text-center'>
                 Compatibility with Existing Wallets
                   </h3>
@@ -278,7 +279,7 @@ function App() {
             <h1 className='font-head md:text-[40px] 2xl:text-[70px] 2xl:text-center'>Key Features</h1>
             </div>
             <div>
-              <img src={logowhite} className='w-48 2xl:w-64' alt="" />
+              <img src={features} className='w-48 2xl:w-[800px] floating' alt="" />
             </div>
             <p className='text-center font-text 2xl:text-[25px]'>
             Mii Chain, along with the Mii Wallet, is revolutionizing the way we interact with cryptocurrencies. Our platform is designed to be accessible, secure, and user-friendly, catering to both seasoned crypto enthusiasts and newcomers. Join us as we pave the path towards a more inclusive and streamlined digital currency experience.
@@ -300,52 +301,86 @@ function App() {
             </div>
           </div>
 
-            <div className="grid grid-row-1 md:grid-row-2 gap-5 lg:gap-8 ">
-            <div className="hvr-grow-shadow md:flex flex-col w-72 h-60  2xl:w-[600px] 2xl:h-80 shadow-gray-600 shadow-2xl p-6 md:p-6 rounded-xl text-center md:text-left">
+            <div className="grid grid-row-1 md:grid-row-2 gap-5 lg:gap-8">
+            <div className="hvr-grow-shadow md:flex flex-col w-72 md:w-fit  2xl:w-[600px]  shadow-gray-600 shadow-2xl p-6 md:p-4 rounded-xl text-center">
                 <img src={logoMain} className='w-8' alt="" />
-                <p className=' text-black 2xl:text-[50px] font-head tracking-wider text-center'>
-                Phase 1
+                <p className=' text-black 2xl:text-[30px] mb-4 font-head tracking-wider text-center'>
+                Phase 1: Development Kickoff (Current Stage)
                   </p>
+              
                   <ul className='text-center font-text 2xl:text-[30px]'>
-                    {/* <li>Lorem</li>
-                    <li>Lorem</li> */}
+                    <li> Establish the core blockchain infrastructure.</li>
+                    <li>Develop secure and seamless integration with major social media platforms.</li>
+                    <li> Conduct initial user testing for functionality.</li>
+                  
                   </ul>
+                
                   </div> 
-                  <div className="hvr-grow-shadow md:flex flex-col w-72 h-60  2xl:w-[600px] 2xl:h-80 shadow-gray-600 shadow-2xl p-6 md:p-6 rounded-xl text-center md:text-left">
+                  <div className="hvr-grow-shadow md:flex flex-col w-72  2xl:w-[600px] shadow-gray-600 shadow-2xl p-6 md:p-6 rounded-xl text-center md:text-left">
                 <img src={logoMain} className='w-8' alt="" />
-                <p className=' text-black font-head 2xl:text-[50px]  tracking-wider text-center'>
-                Phase 2
+                <p className=' text-black font-head 2xl:text-[30px] mb-4   tracking-wider text-center'>
+                Phase 2: Beta Testing
                   </p>
                   <ul className='text-center font-text 2xl:text-[30px] '>
-                    {/* <li>Lorem</li>
-                    <li>Lorem</li> */}
+                  <li>Roll out a limited beta version for a select group of users.</li>
+                    <li>Gather feedback on user experience and identify any potential issues.</li>
+                    <li>Implement necessary adjustments based on beta testing results.</li>
+                  
                   </ul>
                   </div> 
             </div>
             <div className="grid grid-row-1 md:grid-row-2 gap-5">
-            <div className="hvr-grow-shadow md:flex flex-col w-72 h-60  2xl:w-[600px] 2xl:h-80 shadow-gray-600 shadow-2xl p-6 md:p-6 rounded-xl text-center md:text-left">
+            <div className="hvr-grow-shadow md:flex flex-col w-72  2xl:w-[600px] shadow-gray-600 shadow-2xl p-6 md:p-6 rounded-xl text-center md:text-left">
                 <img src={logoMain} className='w-8' alt="" />
-                <p className=' text-black font-head 2xl:text-[50px]  tracking-wider text-center'>
-                Phase 3
+                <p className=' text-black font-head 2xl:text-[30px] mb-4  tracking-wider text-center'>
+                Phase 3: Public Release
                   </p>
                   <ul className='text-center 2xl:text-[30px]  font-text'>
-                    {/* <li>Lorem</li>
-                    <li>Lorem</li> */}
+                  <li>Launch the fully developed MiiChain platform to the public.</li>
+                    <li>Integrate additional social media platforms based on user demand.</li>
+                    <li>Implement robust security measures for widespread use.
+</li>
                   </ul>
                   </div>  
-                  <div className="hvr-grow-shadow md:flex flex-col w-72 h-60  2xl:w-[600px] 2xl:h-80 shadow-gray-600 shadow-2xl p-6 md:p-6 rounded-xl text-center md:text-left">
+                  <div className="hvr-grow-shadow md:flex flex-col w-72  2xl:w-[600px]  shadow-gray-600 shadow-2xl p-6 md:p-6 rounded-xl text-center md:text-left">
                 <img src={logoMain} className='w-8' alt="" />
-                <p className=' text-black font-head 2xl:text-[50px]  tracking-wider text-center'>
+                <p className=' text-black font-head 2xl:text-[30px] mb-4  tracking-wider text-center'>
                 Phase 4
                   </p>
                   <ul className='text-center font-text 2xl:text-[30px] '>
-                    {/* <li>Lorem</li>
-                    <li>Lorem</li> */}
+                   <li>Develop educational resources to guide users on MiiChain's features.</li>
+                   <li>Collaborate with influencers and social media platforms for awareness.</li>
+                   <li>Encourage user adoption through promotional campaigns.</li>
                   </ul>
                   </div> 
                   
             </div>
-         
+            <div className="grid grid-row-1 md:grid-row-2 gap-5">
+            <div className="hvr-grow-shadow md:flex flex-col w-72  2xl:w-[600px] shadow-gray-600 shadow-2xl p-6 md:p-6 rounded-xl text-center md:text-left">
+                <img src={logoMain} className='w-8' alt="" />
+                <p className=' text-black font-head 2xl:text-[30px] mb-4  tracking-wider text-center'>
+                Phase 5: Continuous Improvement
+                  </p>
+                  <ul className='text-center 2xl:text-[30px]  font-text'>
+                  <li>Regularly update and enhance MiiChain based on user feedback.</li>
+                    <li>Explore partnerships with other blockchain projects and social media platforms.</li>
+                    <li> Implement additional features to meet evolving user needs.
+</li>
+                  </ul>
+                  </div>  
+                  <div className="hvr-grow-shadow md:flex flex-col w-72  2xl:w-[600px]  shadow-gray-600 shadow-2xl p-6 md:p-6 rounded-xl text-center md:text-left">
+                <img src={logoMain} className='w-8' alt="" />
+                <p className=' text-black font-head 2xl:text-[30px] mb-4  tracking-wider text-center'>
+                Phase 6:Global Expansion
+                  </p>
+                  <ul className='text-center font-text 2xl:text-[30px] '>
+                   <li> Explore opportunities for international expansion.</li>
+                   <li> Tailor MiiChain to accommodate diverse social media ecosystems globally.</li>
+                   <li>Engage with communities worldwide to enhance inclusivity.</li>
+                  </ul>
+                  </div> 
+                  
+            </div>
             
 
         </div>
