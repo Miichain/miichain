@@ -52,9 +52,7 @@ function App() {
                 </div>  
                 <div className="hidden md:flex w-72 h-72 2xl:w-[450px] 2xl:h-[450px]  border-style" data-aos="fade-down-left" data-aos-duration="2000">
                 <p className='p-8 text-white font-text tracking-wider text-center 2xl:flex justify-center items-center'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Voluptatem debitis eum pariatur?
-                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, illo doloremque. Iste.
+                Mii Chain is a cutting-edge blockchain platform that innovatively integrates cryptocurrency with social media, transforming the way users engage with digital currencies.
                   </p>
                   </div>  
          
@@ -67,9 +65,7 @@ function App() {
           <div className="flex flex-col justify-between items-center gap-10   2xl:items-center md:gap-20 2xl:gap-60 2xl:p-24">
                 <div className=" border-style w-72 h-72 hidden md:flex 2xl:w-[450px] 2xl:h-[450px] "  data-aos="fade-up-right" data-aos-duration="1000">
                   <p className='p-8  text-white font-text tracking-wider text-center 2xl:flex justify-center items-center'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Voluptatem debitis eum pariatur?
-                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, illo doloremque. Iste.
+                  This platform simplifies cryptocurrency transactions by allowing direct linking of wallets to social media accounts
                   </p>
                   </div>  
                 <div data-aos="fade-down-right" data-aos-duration="2000">
@@ -125,9 +121,7 @@ function App() {
      data-aos-duration="3000">
                 <div className="border-style w-80 h-fit flex">
                   <p className='p-8  text-white flex justify-center items-center font-text tracking-wider text-center'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Voluptatem debitis eum pariatur?
-                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, illo doloremque. Iste.
+                  Mii Chain is a cutting-edge blockchain platform that innovatively integrates cryptocurrency with social media, transforming the way users engage with digital currencies. This platform simplifies cryptocurrency transactions by allowing direct linking of wallets to social media accounts
                   </p>
                   </div>  
                 </div>  
