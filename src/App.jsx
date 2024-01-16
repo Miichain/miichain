@@ -486,34 +486,7 @@ function App() {
                   </div>  
                 </div>  
 
-                <div className="flex flex-col justify-between items-center p-4 gap-2"  data-aos="fade-right"
-     data-aos-duration="3000">
-               <div className="flex md:hidden w-72 h-fit 2xl:w-[450px] 2xl:h-[450px] justify-center  border-style" data-aos="fade-down-left" data-aos-duration="2000">
-                
-                
-                <span className='p-4 text-white font-head tracking-wider text-center 2xl:flex justify-center
-                 items-center'>MiiChain<br/>
-                <span className='font-text'>Token Name</span>
-             
-                </span>
-                  
-                  
-                  </div>  
-                </div>  
-                <div className="flex flex-col justify-between items-center p-4 gap-2"  data-aos="fade-right"
-     data-aos-duration="3000">
-               <div className="flex md:hidden w-72 h-fit 2xl:w-[450px] 2xl:h-[450px] justify-center  border-style" data-aos="fade-down-left" data-aos-duration="1000">
-                
-                
-                <span className='p-4 text-white font-head tracking-wider text-center 2xl:flex justify-center
-                 items-center'>MiiChain<br/>
-                <span className='font-text'>Token Name</span>
-             
-                </span>
-                  
-                  
-                  </div>  
-                </div>  
+              
                 <div className="flex flex-col justify-between items-center p-4 gap-2"  data-aos="fade-right"
      data-aos-duration="3000">
                <div className="flex md:hidden w-72 h-fit 2xl:w-[450px] 2xl:h-[450px] justify-center  border-style" data-aos="fade-down-left" data-aos-duration="1500">
