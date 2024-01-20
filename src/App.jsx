@@ -7,8 +7,8 @@ import './App.css'
 import features from '../src/assets/images/phone.png'
 import { PiTelegramLogoFill } from "react-icons/pi";
 import { TbChevronDownRight } from "react-icons/tb";
-import { FaMedium } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
+import { SiGitbook } from "react-icons/si";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import 'animate.css'
@@ -31,17 +31,30 @@ function App() {
             {/* Nav Links */}
             <div>
               <ul className='space-x-8 font-head text-sm 2xl:text-[30px] font-thin hidden md:flex'>
+              <a href="">
                 <li>Home</li>
-                <a href="#about"><li>About</li></a>
+                </a>
+                <a href="#about">
+                  <li>About</li>
+                  </a>
+                <a href="#features">
+                <li>Key Features</li>
+                </a>
+                <a href="#tokenomics">
                 <li>Tokenomics</li>
+                </a>
+                <a href="#roadmap">
                 <li>Roadmap</li>
-                <li>Whitepaper</li>
+                </a>
+                <a href="">
+                <li>Gitbook</li>
+                </a>
               </ul>
 
             </div>
               {/* Button */}
               <div className='font-head text-sm 2xl:text-4xl font-thin'>
-              <a href="" className='neon border-btn-2 px-4 py-2 rounded-xl'>Join</a>
+              <a href="https://miiexplorer.org" className='neon border-btn-2 px-4 py-2 rounded-xl'>Explorer</a>
               </div>
         </nav>
         {/* Desktop Hero Section */}
@@ -49,10 +62,10 @@ function App() {
         <div className="hidden md:flex justify-between items-center 2xl:items-center p-4 mx-12 w-fit 2xl:w-full">
           <div className="flex flex-col justify-between items-center 2xl:items-center md:gap-20 2xl:gap-72 2xl:p-24">
                 <div className="">
-                  <h1 className='md:text-[80px] 2xl:text-[100px] font-head text-white neon-text' data-aos="fade-up-left" data-aos-duration="1000">MII</h1>  
+                  <h1 className='md:text-[100px] 2xl:text-[150px] font-head  text-white neon-text' data-aos="fade-up-left" data-aos-duration="1000">MII</h1>  
                 </div>  
                 <div className="hidden md:flex w-72 h-72 2xl:w-[450px] 2xl:h-[450px]  border-style" data-aos="fade-down-left" data-aos-duration="2000">
-                <p className='p-8 text-white font-text tracking-wider text-center 2xl:flex justify-center items-center'>
+                <p className='p-8 text-white font-text tracking-wider text-center lg:text-3xl  2xl:flex justify-center items-center'>
                 Mii Chain is a cutting-edge blockchain platform that innovatively integrates cryptocurrency with social media, transforming the way users engage with digital currencies.
                   </p>
                   </div>  
@@ -65,17 +78,23 @@ function App() {
           </div>  
           <div className="flex flex-col justify-between items-center gap-10   2xl:items-center md:gap-20 2xl:gap-60 2xl:p-24">
                 <div className=" border-style w-72 h-72 hidden md:flex 2xl:w-[450px] 2xl:h-[450px] "  data-aos="fade-up-right" data-aos-duration="1000">
-                  <p className='p-8  text-white font-text tracking-wider text-center 2xl:flex justify-center items-center'>
+                  <p className='p-8  text-white font-text tracking-wider lg:text-3xl text-center 2xl:flex justify-center items-center'>
                   This platform simplifies cryptocurrency transactions by allowing direct linking of wallets to social media accounts
                   </p>
                   </div>  
                 <div data-aos="fade-down-right" data-aos-duration="2000">
-                <h1 className='md:text-[80px] 2xl:text-[100px]  font-head text-white neon-text '>CHAIN</h1>  
+                <h1 className='md:text-[100px] 2xl:text-[150px]  font-head text-white neon-text '>CHAIN</h1>  
                   </div>  
                   <div className='flex-col flex md:flex-row space-x-10 text-white ' >
+                    <a href="https://t.me/miichain">
                   <PiTelegramLogoFill  data-aos="zoom-in-up" className='2xl:text-[60px]' data-aos-duration="1500" />
-                  <FaMedium className='2xl:text-[60px]' data-aos="zoom-in-up" data-aos-duration="2000" />
+                  </a>
+                  <a href="https://miiexplorer.org/">
+                  <SiGitbook className='2xl:text-[60px]' data-aos="zoom-in-up" data-aos-duration="2000" />
+                  </a>
+                    <a href="https://www.twitter.com/MiiChainTeam">
                   <FaXTwitter className='2xl:text-[60px]' data-aos="zoom-in-up" data-aos-duration="2500"  />
+                  </a>
 
                   </div>  
          
@@ -104,15 +123,19 @@ function App() {
                 
                 <div className='flex-col flex md:flex-row space-y-3 mt-10 text-white relative right-16'>
                 <div className='bg-purple-800/60 p-2 rounded-2xl'  data-aos="zoom-in-up" data-aos-duration="1500">
+                    <a href="https://t.me/miichain">             
                   <PiTelegramLogoFill size={30} />
+                  </a> 
                   </div>
                   <div  className='bg-purple-800/60 p-2 rounded-2xl'  data-aos="zoom-in-up" data-aos-duration="2000">
-                  <FaMedium size={30} />
+                 <a href="">
+                  <SiGitbook size={30} />
+                  </a>
                   </div>
                   <div  className='bg-purple-800/60 p-2 rounded-2xl'  data-aos="zoom-in-up" data-aos-duration="2500">
-
+                      <a href="https://www.twitter.com/MiiChainTeam">
                   <FaXTwitter size={30} />
-                
+                  </a>
                   </div>
                   
                 </div> 
@@ -144,14 +167,14 @@ function App() {
               Mii Chain is a cutting-edge blockchain platform that innovatively integrates cryptocurrency with social media, transforming the way users engage with digital currencies. This platform simplifies cryptocurrency transactions by allowing direct linking of wallets to social media accounts
               </p>
               <div className='md:mt-8 mt-6 mb-2 p-4'>
-              <a class="bg-white text-black px-12 whitespace-nowrap py-2 rounded-2xl font-head border-btn 2xl:text-4xl">Read More <TbChevronDownRight className='inline' size={20} /> </a>
+              <a class="bg-white text-black px-12 whitespace-nowrap py-2 rounded-2xl font-head border-btn 2xl:text-4xl" href='https://miiexplorer.org'>Explorer <TbChevronDownRight className='inline' size={20} /> </a>
               </div>
               </div>
               </div>
             </div>
       </section>
       {/* Features */}
-      <section className="p-2 2xl:p-12 bg-[url('../src/assets/images/bg-7.jpg')]  h-fit bg-cover bg-no-repeat w-screen" >
+      <section className="p-2 2xl:p-12 bg-[url('../src/assets/images/bg-7.jpg')]  h-fit bg-cover bg-no-repeat w-screen" id='features'>
         <div className="flex flex-col md:flex-row justify-between items-center 2xl:justify-evenly  p-6 mx-8 2xl:mx-8" data-aos="fade-up" data-aos-duration="1000">
         {/* Mobile */}
         <div className="md:hidden flex justify-center gap-5 flex-col items-center text-white">
@@ -290,7 +313,7 @@ function App() {
         </div>
       </section>
         {/* Roadmap */}
-        <section className="p-2 2xl:p-12 bg-[url('../src/assets/images/bg-6.jpg')]  h-fit bg-cover bg-no-repeat w-screen" >
+        <section className="p-2 2xl:p-12 bg-[url('../src/assets/images/bg-6.jpg')]  h-fit bg-cover bg-no-repeat w-screen" id='roadmap'>
         <div className="flex justify-between flex-col  2xl:justify-evenly md:flex-row items-center p-8 mx-12 2xl:mx-16 lg:mx-6" data-aos="fade-up" data-aos-duration="1000">
         <div className="flex justify-center flex-col items-center text-black ">
             <div>
@@ -408,8 +431,8 @@ function App() {
               <a href="" className='neon border-btn-2 px-4 py-2 rounded-xl'>Join</a>
               </div>
         </nav> */}
-        {/* Desktop Hero Section */}
-        <div className="flex justify-center flex-col items-center m-auto place-content-center">
+        {/* Desktop Tokenomics Section */}
+        <div className="flex justify-center flex-col items-center m-auto place-content-center" id='tokenomics'>
               <div className='flex '>
               <h1 className='md:text-[80px] text-[40px] p-4 md:p-8 2xl:p-12 2xl:text-[100px] font-head text-white neon-text'
          data-aos="fade-up-left" data-aos-duration="1000">TOKENOMICS</h1> 
@@ -484,8 +507,8 @@ function App() {
         </div> 
         </div>
 
-        {/* Mobile Hero Section */}
-        <section className='md:hidden flex justify-center flex-col items-center'>
+        {/* Mobile Tokenomics */}
+        <section className='md:hidden flex justify-center flex-col items-center' id='tokenomics'>
         <div className="flex justify-center items-center flex-row gap-0 ">
           <div className="flex flex-col items-center">
           {/* <div className="" data-aos="fade-up-left" data-aos-duration="1000">
@@ -606,27 +629,46 @@ function App() {
           </div>
           <div className="hidden md:grid grid-cols-3 md:text-[15px]  2xl:text-[30px]  font-text text-white place-items-center gap-20">
               <div>
-            <ul>
+            <ul> 
+              <a href="#">
               <li>Home</li>
+              </a>
+              <a href="#about">
               <li>About</li>
-              <li>Features</li>
+              </a>
+              <a href="#features">
+              <li>Key Features</li>
+              </a>
+              <a href="#tokenomics">
               <li>Tokenomics</li>
+              </a>
             </ul>
             </div>
             <div>
             <ul>
+              <a href="#roadmap">
               <li>Roadmap</li>
-              <li>Whitepaper</li>
-              <li>Contact</li>
+              </a>
+              <a href="">
+              <li>Gitbook</li>
+              </a>
+              <a href="https://miiexplorer.org">
+              <li>Explorer</li>
+              </a>
             </ul>
             </div>
           </div>
           <div className="">
           <div className='flex-row flex items-center justify-center md:space-y-3 space-x-5 text-white ' >
+                <a href=" https://t.me/miichain">
                   <PiTelegramLogoFill  className='md:text-3xl 2xl:text-[60px]' data-aos="zoom-in-up"  data-aos-duration="1500" />
-                  <FaMedium className='2xl:text-[60px] md:text-3xl' data-aos="zoom-in-up" data-aos-duration="2000" />
+                  </a>
+                  <a href="">
+                  <SiGitbook className='2xl:text-[60px] md:text-3xl' data-aos="zoom-in-up" data-aos-duration="2000" />
+                  </a>
+                  <a href=" https://www.twitter.com/MiiChainTeam">
                   <FaXTwitter className='2xl:text-[60px] md:text-3xl' data-aos="zoom-in-up" data-aos-duration="2500"  />
-
+                  </a>
                   </div>  
           </div>
         </div>

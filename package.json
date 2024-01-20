@@ -1,5 +1,6 @@
 {
   "name": "miichain",
+  "homepage": "https://miichain.org/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
