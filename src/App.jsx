@@ -31,7 +31,7 @@ function App() {
             {/* Nav Links */}
             <div>
               <ul className='space-x-8 font-head text-sm 2xl:text-[30px] font-thin hidden md:flex'>
-              <a href="">
+              <a href="https://miichain.org/">
                 <li>Home</li>
                 </a>
                 <a href="#about">
@@ -46,7 +46,7 @@ function App() {
                 <a href="#roadmap">
                 <li>Roadmap</li>
                 </a>
-                <a href="">
+                <a href="https://docs.miichain.org">
                 <li>Gitbook</li>
                 </a>
               </ul>
@@ -64,8 +64,8 @@ function App() {
                 <div className="">
                   <h1 className='md:text-[100px] 2xl:text-[150px] font-head  text-white neon-text' data-aos="fade-up-left" data-aos-duration="1000">MII</h1>  
                 </div>  
-                <div className="hidden md:flex w-72 h-72 2xl:w-[450px] 2xl:h-[450px]  border-style" data-aos="fade-down-left" data-aos-duration="2000">
-                <p className='p-8 text-white font-text tracking-wider text-center lg:text-3xl  2xl:flex justify-center items-center'>
+                <div className="hidden md:flex w-72 h-fit 2xl:w-[450px] 2xl:h-fit  border-style" data-aos="fade-down-left" data-aos-duration="2000">
+                <p className='p-8 text-white font-text tracking-wider text-center lg:text-2xl  2xl:flex justify-center items-center'>
                 Mii Chain is a cutting-edge blockchain platform that innovatively integrates cryptocurrency with social media, transforming the way users engage with digital currencies.
                   </p>
                   </div>  
@@ -77,8 +77,8 @@ function App() {
              
           </div>  
           <div className="flex flex-col justify-between items-center gap-10   2xl:items-center md:gap-20 2xl:gap-60 2xl:p-24">
-                <div className=" border-style w-72 h-72 hidden md:flex 2xl:w-[450px] 2xl:h-[450px] "  data-aos="fade-up-right" data-aos-duration="1000">
-                  <p className='p-8  text-white font-text tracking-wider lg:text-3xl text-center 2xl:flex justify-center items-center'>
+                <div className=" border-style w-72 h-fit hidden md:flex 2xl:w-[450px] 2xl:h-fit "  data-aos="fade-up-right" data-aos-duration="1000">
+                  <p className='p-8  text-white font-text tracking-wider lg:text-2xl text-center 2xl:flex justify-center items-center'>
                   This platform simplifies cryptocurrency transactions by allowing direct linking of wallets to social media accounts
                   </p>
                   </div>  
@@ -89,7 +89,7 @@ function App() {
                     <a href="https://t.me/miichain">
                   <PiTelegramLogoFill  data-aos="zoom-in-up" className='2xl:text-[60px]' data-aos-duration="1500" />
                   </a>
-                  <a href="https://miiexplorer.org/">
+                  <a href="https://docs.miichain.org">
                   <SiGitbook className='2xl:text-[60px]' data-aos="zoom-in-up" data-aos-duration="2000" />
                   </a>
                     <a href="https://www.twitter.com/MiiChainTeam">
@@ -128,7 +128,7 @@ function App() {
                   </a> 
                   </div>
                   <div  className='bg-purple-800/60 p-2 rounded-2xl'  data-aos="zoom-in-up" data-aos-duration="2000">
-                 <a href="">
+                 <a href="https://docs.miichain.org">
                   <SiGitbook size={30} />
                   </a>
                   </div>
@@ -630,7 +630,7 @@ function App() {
           <div className="hidden md:grid grid-cols-3 md:text-[15px]  2xl:text-[30px]  font-text text-white place-items-center gap-20">
               <div>
             <ul> 
-              <a href="#">
+              <a href="https://miichain.org/">
               <li>Home</li>
               </a>
               <a href="#about">
@@ -649,7 +649,7 @@ function App() {
               <a href="#roadmap">
               <li>Roadmap</li>
               </a>
-              <a href="">
+              <a href="https://docs.miichain.org">
               <li>Gitbook</li>
               </a>
               <a href="https://miiexplorer.org">
@@ -663,7 +663,7 @@ function App() {
                 <a href=" https://t.me/miichain">
                   <PiTelegramLogoFill  className='md:text-3xl 2xl:text-[60px]' data-aos="zoom-in-up"  data-aos-duration="1500" />
                   </a>
-                  <a href="">
+                  <a href="https://docs.miichain.org">
                   <SiGitbook className='2xl:text-[60px] md:text-3xl' data-aos="zoom-in-up" data-aos-duration="2000" />
                   </a>
                   <a href=" https://www.twitter.com/MiiChainTeam">
