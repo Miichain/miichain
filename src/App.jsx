@@ -12,6 +12,7 @@ import { SiGitbook } from "react-icons/si";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import 'animate.css'
+
 import { useEffect } from 'react';
 function App() {
   useEffect(()=>{
@@ -20,6 +21,7 @@ function App() {
  
   return (
     <>
+   
      {/* Hero Section */}
      <section className="md:p-2 2xl:p-2 bg-[url('../src/assets/images/bg-2.jpg')] md:h-screen lg:h-fit h-fit bg-cover bg-no-repeat w-screen">
         {/* Navigation bar */}
