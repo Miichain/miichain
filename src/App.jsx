@@ -497,9 +497,9 @@ function App() {
                 <div data-aos="fade-down-right" data-aos-duration="2000">
                 <h1 className='md:text-[80px] 2xl:text-[200px]  font-head text-white neon-text'>CHAIN</h1>  
                   </div>  
-                  <div className="hidden md:flex w-72 h-fit justify-center 2xl:w-[450px] 2xl:h-fit  border-style" data-aos="fade-down-left" data-aos-duration="2000">
-                  <span className='p-8 text-white font-head tracking-wider 2xl:text-[55px] 2xl:flex-col text-center 2xl:flex justify-center
-                 items-center'>TBA<br/>
+                  <div className="hidden md:flex w-fit h-fit justify-center 2xl:w-[450px] 2xl:h-fit  border-style" data-aos="fade-down-left" data-aos-duration="2000">
+                  <span className='p-8 text-white font-head tracking-widest 2xl:text-[55px] 2xl:flex-col text-center 2xl:flex justify-center
+                 items-center'>0x48705618292b153b98e816d<br/>ff527352b4b748fa0<br/>
                 <span className='font-text'>CA</span>
              
                 </span>
@@ -606,11 +606,11 @@ function App() {
                 </div> 
                 <div className="flex flex-col justify-between items-center p-4 gap-2"  data-aos="fade-right"
      data-aos-duration="4000">
-               <div className="flex md:hidden w-72 h-fit 2xl:w-[450px] 2xl:h-[450px] justify-center  border-style" data-aos="fade-down-left" data-aos-duration="3000">
+               <div className="flex md:hidden w-fit h-fit 2xl:w-[450px] 2xl:h-[450px] justify-center  border-style" data-aos="fade-down-left" data-aos-duration="3000">
                 
                 
-                <span className='p-4 text-white font-head tracking-wider text-center 2xl:flex justify-center
-                 items-center'>TBA<br/>
+                <span className='p-6 text-white font-head tracking-widest text-center 2xl:flex justify-center
+                 items-center'>0x48705618292b153b98e816d<br/>ff527352b4b748fa0<br/>
                 <span className='font-text'>CA</span>
              
                 </span>
